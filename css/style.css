@@ -1,0 +1,118 @@
+body { 
+    font-family: 'Open Sans', sans-serif;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.carousel {
+    position:absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+}
+.carousel img {
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+    filter: brightness(40%) grayscale(80%);
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: rgba(255, 255, 255, 0.55);
+}
+.nav-btn{
+    color: white;
+}
+.nav-btn:hover{
+    color: rgba(255, 255, 255, 0.55);
+}
+.hero-section {
+    height: 100vh;
+}
+.hero-title{
+    color: #94070a;
+    font-size: 3rem;
+}
+.hero-title-addition{
+    color: white;
+    font-size: 3rem;
+}
+.hero-description{
+    color: white;
+    font-size: 1.5rem;
+}
+.btn-hero {
+    background-color: transparent;
+    border: 2px solid #94070a;
+    color: white;
+    font-size: 1rem;
+    transition: 0.5s;
+}
+.btn-hero:hover{
+    background-color: #94070a;
+    border: 2px solid #94070a;
+    color: white;
+}
+.navbar-toggler{
+    border: none;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.btn:focus{
+    box-shadow: none;
+}
+.contact-info{
+    font-size: 1rem;
+}
+.navbar.scrolled{
+    opacity: .9;
+    background-color: #434343;
+    transition: all .5s ease-in-out;
+}
+#menu-icon{
+   font-size: 1.5rem;
+}
+#send_message{
+    background-color: #94070a;
+    color: white;
+}
+.btn-form{
+    width: 100%;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    transition: 0.5s;
+}
+.btn-form:hover{
+    background-color: white;
+    color: #94070a;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #fff;
+    outline: 0;
+    box-shadow: none;
+}
+@media only screen and (min-width: 768px) {
+    .hero-title{
+        font-size: 6rem;
+    }
+    .hero-title-addition{
+        font-size: 6rem;
+    }
+    .hero-description{
+        font-size: 2rem;
+    }
+    .btn-hero{
+        font-size: 1.5rem;
+    }
+    .contact-info{
+        font-size: 1.3rem;
+    }
+}
+/* crvena: #94070a
+crna: #434343 */
