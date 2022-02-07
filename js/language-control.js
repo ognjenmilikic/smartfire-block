@@ -12,9 +12,7 @@ var language = {
         address: "Batajnički drum 23, Belgrade, Serbia",
         send_message_title: "Send us a message",
         european_support_text: "Supported by European Institute of Innovation & Technology (EIT)",
-        address_footer: "Batajnički drum 23, Belgrade, Serbia",
         copyright: "2022, SmartFireBlock. All rights reserved.",
-        contact_footer: "Contact",
         name_label: "Name",
         email_label: "Email",
         message_label: "Your message",
@@ -40,9 +38,7 @@ if(window.location.hash && window.location.hash === "#en") {
     address.textContent = language.en.address;
     send_message_title.textContent = language.en.send_message_title;
     european_support_text.textContent = language.en.european_support_text;
-    address_footer.textContent = language.en.address_footer;
     copyright.textContent = language.en.copyright;
-    contact_footer.textContent = language.en.contact_footer;
     name_label.textContent = language.en.name_label;
     email_label.textContent = language.en.email_label;
     message_label.textContent = language.en.message_label;
