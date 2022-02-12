@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="sr">
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Kompanija SmartFireBlock Ltd je nova kompanija osnovana od strane tima ljudi punih entuzijazma. Pasivna protivpožarna zaštita je naša specijalnost.">
-    <meta name="keywords" content="SmartFireBlock, pasivna protivpožarna zaštita, pasivna protivpozarna zastita, protivpozarna zastita">
+    <meta name="description" content="Company SmartFireBlock Ltd is a new company started by a team of people full of enthusiasm. Passive fire protection is our specialty.">
+    <meta name="keywords" content="SmartFireBlock, passive fire protection, fire protection">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
     <link rel="stylesheet" href="./node_modules/aos/dist/aos.css">
@@ -13,9 +13,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="./assets/images/logo/favicon.png">
-    <title>Naslovna | SmartFireBlock</title>
+    <title>Home | SmartFireBlock</title>
 </head>
-<body onload="onLoadSr(); loadProducts('sr')">
+<body onload="onLoadEn(); loadProducts('en')">
     <!-- CAROUSEL -->
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -49,16 +49,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#home">Početna</a>
+                            <a class="nav-link" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">O nama</a>
+                            <a class="nav-link" href="#about">About us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#products">Proizvodi</a>
+                            <a class="nav-link" href="#products">Products</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Kontakt</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -78,37 +78,35 @@
         <div class="text-center mb-5">
             <h1 class="hero-title">SmartFire<span class="hero-title-addition">Block</span></h1>
             <p class="hero-description" id="hero_description"></p>
-            <a class="btn btn-hero" href="./assets/katalozi/SFB katalog SRB.pdf" target="_blank">Pogledajte naš katalog</a>
+            <a class="btn btn-hero" href="./assets/katalozi/SFB katalog ENG.pdf" target="_blank">Browse our catalog</a>
         </div>
     </div>
     <!-- O NAMA -->
     <div class="container-fluid text-center p-5" id="about">
-        <h1><b>O nama</b></h1>
+        <h1><b>About us</b></h1>
         <p>
-            Kompanija SmartFireBlock Ltd. je nova kompanija osnovana od strane tima ljudi punih entuzijazma, 
-            sa velikim iskustvom i znanjem u polimer tehnologiji, 
-            finansijama i menadžmentu. Pristupamo ovom projektu sa mnogo iskustva, znanja i odlučnosti. 
-            Naša poslovna filozofija je da postanemo strateški važna i dobro organizovana kompanija koja obezbeđuje nove tehnološke proizvode i eko-tehnološka rešenja na tržištu. 
-            Uz rastući trend interesovanja i povećanu potrošnju Passive fire protection (PFP) proizvoda na svetskom tržištu, 
-            naš cilj je da osnujemo modernu kompaniju za industrijsku proizvodnju PFP proizvoda. S obzirom na značajan porast radova na polju gradjevine, 
-            sve veći broj gradilišta, potrebu za preuređenjem zgrada, za temeljnim renoviranjem i strožom primenom regulativa o zaštiti od požara, 
-            otvara se prostor za inovativna rešenja na tržištu. 
-            Naš cilj je da razvijemo kvalitetne proizvode i da konstantno istražujemo nova rešenja u svrhu dostizanja ciljeva za razvoj životne sredine i zelene ekonomije.
+            The company SmartFireBlock Ltd is a new company established by an enthusiastic team of young people with a background in polymer technology, finance, and management. 
+            We approach this endeavor with experience, competence, and determination. 
+            Our business philosophy is to become a strategic and well-organized company that will provide novel technology products and eco-technological solutions for the market. 
+            With the growing trend of increased worldwide consumption of Passive Fire Protection (PFP) products, our goal is to establish a modern company for the industrial production of PFP products. 
+            The increased number of construction sites, requirements for buildings refurbishment, and deep renovation with the stricter implementation of fire protection regulations, is opening the room for innovative products on the market. 
+            Our passive fire protection portfolio is suitable for plumbers, electricians and HVAC technicians. 
+            We aim to develop quality products and to maintain constant research efforts to comply with the goals for sustainable development, environmental protection, and a green economy.
         </p>
     </div>
     <!-- PROIZVODI  -->  
     <div class="container-fluid text-center py-5 px-4" id="products">
-        <h1><b>Proizvodi</b></h1>
-        <h5 class="pb-5">Najbolja tehnologija za proizvodnju plastifikatora na biološkoj bazi uz korišćenje vatrootpornih formula</h5>
+        <h1><b>Products</b></h1>
+        <h5 class="pb-5">Best in class technology for bio-based plasticizer production used in intumescent formula</h5>
         <div class="row g-5" id="product-list"></div>
     </div> 
     <!-- KONTAKT -->
-    <div class="container-fluid text-center py-5 text-center" id="contact">
+    <div class="container-fluid text-center pt-5 mb-0 text-center" id="contact">
         <div class="row">
-            <h1 class="mb-4"><b>Kontakt</b></h1>
+            <h1 class="mb-4"><b>Contact</b></h1>
             <div class="col-md-6 d-flex align-items-center justify-content-center">
                 <div class="contact-alignment">
-                    <p class="contact-info"><i class="fas fa-map-marker-alt"></i> <span class="contact-info">Batajnički drum 23, Beograd, Srbija</span></p>
+                    <p class="contact-info"><i class="fas fa-map-marker-alt"></i> <span class="contact-info">Batajnički drum 23, Belgrade, Serbia</span></p>
                     <p class="contact-info"><i class="fas fa-envelope"></i> office@smartfireblock.rs</p>
                     <p class="contact-info"><i class="fas fa-phone"></i> +381 60 339 44 07</p>
                 </div>
@@ -121,10 +119,10 @@
     <!-- POSALJI NAM PORUKU  -->
     <div class="container-fluid py-5 d-flex justify-content-center" id="send_message">
         <div class="col-md-3">
-            <h1 class="mb-4 text-center">Pošalji nam poruku</h1>
+            <h1 id="send_message_title" class="mb-4 text-center">Send us a message</h1>
             <form>
                 <div class="mb-3">
-                    <label for="name" class="form-label">Ime</label>
+                    <label for="name" class="form-label">Name</label>
                     <input type="text" class="form-control" id="name">
                 </div>
                 <div class="mb-3">
@@ -132,10 +130,10 @@
                     <input type="email" class="form-control" id="email">
                 </div>
                 <div class="mb-3">
-                    <label class="form-label" for="message">Vaša poruka</label>
+                    <label class="form-label" for="message">Your message</label>
                     <textarea type="text" rows="7" class="form-control" id="message"></textarea>
                 </div>
-                <button type="submit" class="btn btn-form d-block mx-auto">Pošalji</button>
+                <button type="submit" class="btn btn-form d-block mx-auto">Send</button>
             </form>
         </div>
     </div>
@@ -146,7 +144,7 @@
                 <div class="col-md-4 p-5 d-flex align-items-center justify-content-center">
                     <div class="text-center">
                         <img class="img-fluid footer-img" src="./assets/images/european-union.webp" alt="european-union">
-                        <p>Podržani od strane Evropskog instituta za inovacije i tehnologiju (EIT)</p>
+                        <p>Supported by European Institute of Innovation & Technology (EIT)</p>
                     </div>
                 </div>
                 <div class="col-md-4 p-5 d-flex align-items-center justify-content-center">
@@ -181,7 +179,7 @@
                 <div class="col-md-12 px-5 pt-5 pb-0 d-flex align-items-center justify-content-center">
                     <div class="text-center">
                         <img class="img-fluid footer-img" src="./assets/images/logo/sfblogo.webp" alt="black-logo">
-                        <p>&copy;<span id="year"></span>, SmartFireBlock. Sva prava zadržana.</p>
+                        <p>&copy;<span id="year">2022</span>, SmartFireBlock. All rights reserved.</p>
                     </div>
                 </div>
             </div>
@@ -191,34 +189,15 @@
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
             <div class="modal-content">
-                <div class="modal-header text-start">
-                    <h5 class="modal-title" id="modal-title"></h5>
-                    <p id="modal-subtitle"></p>
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-title">Modal title</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <div class="row">
-                        <div class="col-md-6 d-flex align-items-center justify-content-center text-start">
-                            <h4>O proizvodu</h4>
-                            <p id="about"></p>
-                        </div>
-                        <div class="col-md-6 d-flex align-items-center justify-content-center">
-                            <img class="img-fluid" id="image-1">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6 d-flex align-items-center justify-content-center text-start">
-                            <h4>Aplikacija</h4>
-                            <p id="application"></p>
-                            <p id="applicableTo"></p>
-                        </div>
-                        <div class="col-md-6 d-flex align-items-center justify-content-center">
-                            <img class="img-fluid" id="image-2">
-                        </div>
-                    </div>
+                    ...
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Izađi</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
