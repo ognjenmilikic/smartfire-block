@@ -103,6 +103,9 @@ body {
 .footer-img {
     max-height: 100px;
 }
+.footer-logo{
+    max-height: 80px;
+}
 .btn-product {
     color: white;
     background-color: #434343;
@@ -122,10 +125,10 @@ body {
     width: fit-content;
 }
 .product-img{
-    height: 10rem;
+    height: clamp(60%, 70%, 80%);
 }
 #products {
-    background-color: #AA8F66;
+    background-color: #333;
     color: white;
 }
 #modal-title {
@@ -194,14 +197,14 @@ body {
         font-size: 1.3rem;
     }
     .contact-alignment {
-        text-align: left;
+        text-align: center;
     }
     .footer-img {
         max-height: 135px;
-    }
+    }/* 
     .product-img{
         height: 15rem;
-    }
+    } */
     #image-1{
         height: 15rem;
     }
@@ -216,6 +219,9 @@ body {
     }
     #application-title{
         font-size: 1.5rem;
+    }
+    #about p {
+        font-size: 1.3rem;
     }
 }
 /* crvena: #94070a
