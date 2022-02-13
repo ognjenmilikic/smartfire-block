@@ -7,6 +7,7 @@ function sendMessage(lang){
         $('#error').fadeIn().css('display', 'inline-block');
     }
     else{
+        $('#error').hide();
         $.ajax({
             type: "post",
             url: 'php/sendMessage.php',
