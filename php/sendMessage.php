@@ -2,7 +2,7 @@
 $to = "office@smartfireblock.rs";
 $subject = "Nova poruka od" . $_POST['name'];
 $headers = "Content-type: text/html; charset=UTF-8" . "\r\n";
-$headers.= "From: " . $email;
+$headers.= "From: " . $_POST['email'];
 $msg = "<html>";
 $msg.= "<head>";
 $msg.= "<title>Mail</title>";

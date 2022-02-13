@@ -5,7 +5,6 @@ function sendMessage(lang){
 
     if(name == '' || email == '' || message == ''){
         $('#error').fadeIn().css('display', 'inline-block');
-        $('#messageResultModal').modal('show');
     }
     else{
         $.ajax({
