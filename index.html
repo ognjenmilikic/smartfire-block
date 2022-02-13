@@ -82,19 +82,21 @@
         </div>
     </div>
     <!-- O NAMA -->
-    <div class="container-fluid text-center p-5" id="about">
-        <h1><b>O nama</b></h1>
-        <p>
-            Kompanija SmartFireBlock Ltd. je nova kompanija osnovana od strane tima ljudi punih entuzijazma, 
-            sa velikim iskustvom i znanjem u polimer tehnologiji, 
-            finansijama i menadžmentu. Pristupamo ovom projektu sa mnogo iskustva, znanja i odlučnosti. 
-            Naša poslovna filozofija je da postanemo strateški važna i dobro organizovana kompanija koja obezbeđuje nove tehnološke proizvode i eko-tehnološka rešenja na tržištu. 
-            Uz rastući trend interesovanja i povećanu potrošnju Passive fire protection (PFP) proizvoda na svetskom tržištu, 
-            naš cilj je da osnujemo modernu kompaniju za industrijsku proizvodnju PFP proizvoda. S obzirom na značajan porast radova na polju gradjevine, 
-            sve veći broj gradilišta, potrebu za preuređenjem zgrada, za temeljnim renoviranjem i strožom primenom regulativa o zaštiti od požara, 
-            otvara se prostor za inovativna rešenja na tržištu. 
-            Naš cilj je da razvijemo kvalitetne proizvode i da konstantno istražujemo nova rešenja u svrhu dostizanja ciljeva za razvoj životne sredine i zelene ekonomije.
-        </p>
+    <div class="container-fluid d-flex justify-content-center p-5" id="about">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7 text-center">
+            <h1><b>O nama</b></h1>
+            <p>
+                Kompanija SmartFireBlock Ltd. je nova kompanija osnovana od strane tima ljudi punih entuzijazma, 
+                sa velikim iskustvom i znanjem u polimer tehnologiji, 
+                finansijama i menadžmentu. Pristupamo ovom projektu sa mnogo iskustva, znanja i odlučnosti. 
+                Naša poslovna filozofija je da postanemo strateški važna i dobro organizovana kompanija koja obezbeđuje nove tehnološke proizvode i eko-tehnološka rešenja na tržištu. 
+                Uz rastući trend interesovanja i povećanu potrošnju Passive fire protection (PFP) proizvoda na svetskom tržištu, 
+                naš cilj je da osnujemo modernu kompaniju za industrijsku proizvodnju PFP proizvoda. S obzirom na značajan porast radova na polju gradjevine, 
+                sve veći broj gradilišta, potrebu za preuređenjem zgrada, za temeljnim renoviranjem i strožom primenom regulativa o zaštiti od požara, 
+                otvara se prostor za inovativna rešenja na tržištu. 
+                Naš cilj je da razvijemo kvalitetne proizvode i da konstantno istražujemo nova rešenja u svrhu dostizanja ciljeva za razvoj životne sredine i zelene ekonomije.
+            </p>
+        </div>
     </div>
     <!-- PROIZVODI  -->  
     <div class="container-fluid text-center py-5 px-4" id="products">
@@ -122,56 +124,55 @@
     <div class="container-fluid py-5 d-flex justify-content-center" id="send_message">
         <div class="col-md-3">
             <h1 class="mb-4 text-center">Pošalji nam poruku</h1>
-            <form>
-                <div class="mb-3">
-                    <label for="name" class="form-label">Ime</label>
-                    <input type="text" class="form-control" id="name">
-                </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email">
-                </div>
-                <div class="mb-3">
-                    <label class="form-label" for="message">Vaša poruka</label>
-                    <textarea type="text" rows="7" class="form-control" id="message"></textarea>
-                </div>
-                <button type="submit" class="btn btn-form d-block mx-auto">Pošalji</button>
-            </form>
+            <div id="error" class="mb-3 text-center p-3 w-100">
+                Greška. Sva polja su obavezna.
+            </div>
+            <div class="mb-3">
+                <label for="name" class="form-label">Ime</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="message">Vaša poruka</label>
+                <textarea type="text" rows="7" class="form-control" id="message"></textarea>
+            </div>
+            <button onclick="sendMessage('en')" class="btn btn-form d-block mx-auto">Pošalji</button>
         </div>
     </div>
     <!-- FOOTER -->
     <footer>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-4 p-5 d-flex align-items-center justify-content-center">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-xl-2 col-xxl-2 p-5 d-flex align-items-center justify-content-center">
                     <div class="text-center">
                         <img class="img-fluid footer-img" src="./assets/images/european-union.webp" alt="european-union">
                         <p>Podržani od strane Evropskog instituta za inovacije i tehnologiju (EIT)</p>
                     </div>
                 </div>
-                <div class="col-md-4 p-5 d-flex align-items-center justify-content-center">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-xl-2 col-xxl-2 p-5 d-flex align-items-center justify-content-center">
                     <div class="text-center">
                         <img class="img-fluid footer-img" src="./assets/images/green-star.webp" alt="green-star-project">
                     </div>
                 </div>
-                <div class="col-md-4 p-5 d-flex align-items-center justify-content-center">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-xl-2 col-xxl-2 p-5 d-flex align-items-center justify-content-center">
                     <div class="text-center">
                         <img class="img-fluid footer-img" src="./assets/images/diploma-1.webp" alt="diploma-1">
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 p-5 d-flex align-items-center justify-content-center">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-xl-2 col-xxl-2 p-5 d-flex align-items-center justify-content-center">
                     <div class="text-center">
                         <img class="img-fluid footer-img" src="./assets/images/fond-za-inovacionu-delatnost.webp" alt="fond-za-inovacionu-delatnost">
                     </div>
                 </div>
-                <div class="col-md-4 p-5 d-flex align-items-center justify-content-center">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-xl-2 col-xxl-2 p-5 d-flex align-items-center justify-content-center">
                     <div class="text-center">
                         <img class="img-fluid footer-img" src="./assets/images/diploma-2.webp" alt="diploma-2">
                     </div>
                 </div>
-                <div class="col-md-4 p-5 d-flex align-items-center justify-content-center">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-xl-2 col-xxl-2 p-5 d-flex align-items-center justify-content-center">
                     <div class="text-center">
                         <img class="img-fluid footer-img" src="./assets/images/najbolja-tehnoloska-inovacija.webp" alt="najbolja-tehnoloska-inovacija">
                     </div>
@@ -187,39 +188,52 @@
             </div>
         </div>
     </footer>
-    <!-- MODAL -->
+    <!-- PRODUCT MODAL -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
             <div class="modal-content">
-                <div class="modal-header text-start">
-                    <h5 class="modal-title" id="modal-title"></h5>
-                    <p id="modal-subtitle"></p>
+                <div class="modal-header">
+                    <div class="text-start">
+                        <h5 class="modal-title" id="modal-title"></h5>
+                        <p id="modal-subtitle"></p>
+                    </div>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <div class="row">
-                        <div class="col-md-6 d-flex align-items-center justify-content-center text-start">
-                            <h4>O proizvodu</h4>
-                            <p id="about"></p>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6 d-flex align-items-center justify-content-center">
+                            <div class="text-start">
+                                <h4 id="about-title">O proizvodu</h4>
+                                <p id="modal-about"></p>
+                            </div>
                         </div>
-                        <div class="col-md-6 d-flex align-items-center justify-content-center">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6 d-flex align-items-center justify-content-center px-5">
                             <img class="img-fluid" id="image-1">
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6 d-flex align-items-center justify-content-center text-start">
-                            <h4>Aplikacija</h4>
-                            <p id="application"></p>
-                            <p id="applicableTo"></p>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6 d-flex align-items-center justify-content-center">
+                            <div class="text-start">
+                                <h4 id="application-title">Aplikacija</h4>
+                                <p id="application"></p>
+                                <p id="applicableTo"></p>
+                            </div>
                         </div>
-                        <div class="col-md-6 d-flex align-items-center justify-content-center">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 col-xxl-6 d-flex align-items-center justify-content-center px-5">
                             <img class="img-fluid" id="image-2">
                         </div>
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Izađi</button>
+                    <button type="button" class="btn btn-lg btn-secondary" data-bs-dismiss="modal">Izađi</button>
                 </div>
+            </div>
+        </div>
+    </div>
+    <!-- MESSAGE RESULT MODAL -->
+    <div class="modal fade" id="messageResultModal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content" id="messageResultModalContent">
             </div>
         </div>
     </div>
@@ -232,6 +246,7 @@
     <script src="./js/hamburger-transition.js"></script>
     <script src="./js/loadProducts.js"></script>
     <script src="./js/loadModal.js"></script>
+    <script src="./js/sendMessage.js"></script>
     <script>
         AOS.init();
     </script>

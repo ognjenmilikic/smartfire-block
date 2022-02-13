@@ -101,7 +101,7 @@ body {
     text-align: center;
 }
 .footer-img {
-    height: 100px;
+    max-height: 100px;
 }
 .btn-product {
     color: white;
@@ -128,6 +128,55 @@ body {
     background-color: #AA8F66;
     color: white;
 }
+#modal-title {
+    background-color:#94070a;
+    color: white;
+    width: fit-content;
+    padding: 1rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+#modal-subtitle {
+    padding-left: 1rem;
+    font-weight: bold;
+}
+#about-title {
+    background-color:#94070a;
+    color: white;
+    width: fit-content;
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+#modal-about {
+    padding-left: 1rem;
+}
+#application-title{
+    background-color:#94070a;
+    color: white;
+    width: fit-content;
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+#application {
+    padding-left: 1rem;
+}
+#applicableTo{
+    color: #94070a;
+    padding-left: 1rem;
+}
+.modal-body {
+    padding-left: 0;
+}
+.modal-header {
+    padding-left: 0;
+}
+#error {
+    background-color: #94070a;
+    color: white;
+    display: none;
+}
 @media only screen and (min-width: 900px) {
     .hero-title{
         font-size: 6rem;
@@ -148,10 +197,25 @@ body {
         text-align: left;
     }
     .footer-img {
-        height: 135px;
+        max-height: 135px;
     }
     .product-img{
         height: 15rem;
+    }
+    #image-1{
+        height: 15rem;
+    }
+    #image-2{
+        height: 15rem;
+    }
+    #modal-title {
+        font-size: 2rem;
+    }
+    #about-title {
+        font-size: 1.5rem;
+    }
+    #application-title{
+        font-size: 1.5rem;
     }
 }
 /* crvena: #94070a

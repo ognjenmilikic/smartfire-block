@@ -1,15 +1,15 @@
+var productList;
 function loadProducts(lang) {
-    var products;
     var productListDiv = document.getElementById('product-list');
     if(lang === 'sr'){
-        products = [
+        productList = [
             {
                 "title": "SMART FIRE COLLAR",
                 "about": "Koristi se uz: plastične cevi, A/C bakarne cevi, kablovski sistemi",
                 "description": "SMART FIRE COLLAR je obujmica napravljena od kućišta od nerđajućeg čelika sa pokretnim umetkom od materijala koji ekspandira na temperaturi iznad 150 °C",
                 "application": "SMART FIRE COLLAR je obujmica koja se koristi za zaštitu od prodiranja vatre kroz penetracije plastičnih cevi (PVC, PVC-U, San+PVC, PE, HDPE, MDPE, PP, PP-RCT i druge) kao i oko kombinacije plastičnih i bakarnih cevi (HVAC), odnosno elektrokablova, mrežnih kablova koji prodiru kroz lake pregrade kao i čvrste, konstruktivne zidove i podove. Primena može biti horizontalna i vertikalna. Proizvod je tipa ’’Type X Durability’’, što znači da performanse proizvoda ne zavise od promene vremenskih uslova. Postoji mogućnost naknadne ugradnje u bilo kom trenutku prilikom rekonstrukcije objekta.",
-                "pictureSource2": "./assets/images/products/smartfire-collar1.webp",
-                "pictureSource1": "./assets/images/products/smartfire-collar2.webp",
+                "pictureSource1": "./assets/images/products/smartfire-collar1.webp",
+                "pictureSource2": "./assets/images/products/smartfire-collar2.webp",
                 "applicableTo": "SMART FIRE COLLAR je pogodan za ugradnju na zidove (blok, cigla, gips), kao i na međuspratne konstrukcije."
             },
             {
@@ -85,20 +85,19 @@ function loadProducts(lang) {
                 "applicableTo": "Zaptivka se ugradjuje u zidove, a kroz nju mogu penetrirati pojedinačni kablovi, odnosno snopovi istih, kao i plastične cevi."
             }
         ];
-
-        products.forEach(p => {
-            productListDiv.innerHTML += '<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-4" data-aos="fade-up"><button type="button" onclick="loadModal({title:"'+ p.title +'", about:"' + p.about + '", description: "' + p.description + '", application:"' + p.application + '", pictureSource1:"' + p.pictureSource1 + '", pictureSource2:"' + p.pictureSource2 + '", applicableTo:"' + p.applicableTo + '"})" class="btn-product" data-bs-toggle="modal" data-bs-target="#exampleModal"> <h5 class="product-title"> ' + p.title + ' </h5><div class="m-4"><img class="product-img img-fluid" src="' + p.pictureSource1 + '"></div></button></div>'
-        })
+        for(var i = 0; i < productList.length; i++) {
+            productListDiv.innerHTML += '<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-4" data-aos="fade-up"><button type="button" onclick="loadModal(' + i + ')" class="btn-product" data-bs-toggle="modal" data-bs-target="#exampleModal"> <h5 class="product-title"> ' + productList[i].title + ' </h5><div class="m-4"><img class="product-img img-fluid" src="' + productList[i].pictureSource1 + '"></div></button></div>'
+        }
     }
     if(lang === 'en'){
-        products = [
+        productList = [
             {
                 "title": "SMART FIRE COLLAR",
                 "about": "Applicable with: plastic pipes, A/C cooper pipes, cable systems",
                 "description": "Smart fire collar is made of 0.8mm stainless steel housing with a flexible insert made of a graphite-based material which swells under the influence of temperature above 150°C.",
                 "application": "Smart Fire Collar is used for fire protection of penetrations with copper, plastic pipes (PVC, PVC-U, San+PVC, PE, HDPE, MDPE, PVC-U, PP, PP-RCT, and others) as well as combination of plastic/copper pipes and electric/network cables running through flexible or rigid wall and floors). EASY RETROFIT AT ANY TIME. Horizontal and vertical application. Performance unaffected by weathering (Type X Durability). Innovative technology.",
-                "pictureSource2": "./assets/images/products/smartfire-collar1.webp",
-                "pictureSource1": "./assets/images/products/smartfire-collar2.webp",
+                "pictureSource1": "./assets/images/products/smartfire-collar1.webp",
+                "pictureSource2": "./assets/images/products/smartfire-collar2.webp",
                 "applicableTo": "Applicable to masonry walls and floors as well as speed panels with 900 and 450 pipe penetrations."
             },
             {
@@ -175,8 +174,19 @@ function loadProducts(lang) {
             }
         ];
 
-        products.forEach(p => {
-            productListDiv.innerHTML += '<div class="col-md-4" data-aos="fade-up"><button type="button" class="btn-product" data-bs-toggle="modal" data-bs-target="#exampleModal"> <h5 class="product-title"> ' + p.title + ' </h5><div class="m-4"><img class="product-img img-fluid" src="' + p.pictureSource1 + '"></div></button></div>'
-        })
+        for(var i = 0; i < productList.length; i++) {
+            productListDiv.innerHTML += '<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-4" data-aos="fade-up"><button type="button" onclick="loadModal(' + i + ')" class="btn-product" data-bs-toggle="modal" data-bs-target="#exampleModal"> <h5 class="product-title"> ' + productList[i].title + ' </h5><div class="m-4"><img class="product-img img-fluid" src="' + productList[i].pictureSource1 + '"></div></button></div>'
+        }
     } 
+}
+
+function loadModal(id) {
+    var product = productList[parseInt(id)];
+    document.getElementById("modal-title").textContent = product.title;
+    document.getElementById("modal-subtitle").textContent = product.about;
+    document.getElementById("modal-about").textContent = product.description;
+    document.getElementById("image-1").setAttribute("src", product.pictureSource1);
+    document.getElementById("application").textContent = product.application;
+    document.getElementById("applicableTo").textContent = product.applicableTo;
+    document.getElementById("image-2").setAttribute("src", product.pictureSource2);
 }
