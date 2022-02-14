@@ -124,9 +124,6 @@ body {
     text-align: left;
     width: fit-content;
 }
-.product-img{
-    height: clamp(60%, 70%, 80%);
-}
 #products {
     background-color: #333;
     color: white;
@@ -180,6 +177,9 @@ body {
     color: white;
     display: none;
 }
+.footer-logo {
+    height: 80px;
+}
 @media only screen and (min-width: 900px) {
     .hero-title{
         font-size: 6rem;
@@ -201,10 +201,14 @@ body {
     }
     .footer-img {
         max-height: 135px;
+<<<<<<< HEAD
     }/* 
     .product-img{
         height: 15rem;
     } */
+=======
+    }
+>>>>>>> 86f54d7d4987d6d9c859d2cbbbc391af39d2de63
     #image-1{
         height: 15rem;
     }
@@ -220,9 +224,13 @@ body {
     #application-title{
         font-size: 1.5rem;
     }
+<<<<<<< HEAD
     #about p {
         font-size: 1.3rem;
     }
 }
 /* crvena: #94070a
 crna: #434343 */
+=======
+}
+>>>>>>> 86f54d7d4987d6d9c859d2cbbbc391af39d2de63
