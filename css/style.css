@@ -121,11 +121,8 @@ body {
     text-align: left;
     width: fit-content;
 }
-.product-img{
-    height: 10rem;
-}
 #products {
-    background-color: #AA8F66;
+    background-color: #333;
     color: white;
 }
 #modal-title {
@@ -177,6 +174,9 @@ body {
     color: white;
     display: none;
 }
+.footer-logo {
+    height: 80px;
+}
 @media only screen and (min-width: 900px) {
     .hero-title{
         font-size: 6rem;
@@ -199,9 +199,6 @@ body {
     .footer-img {
         max-height: 135px;
     }
-    .product-img{
-        height: 15rem;
-    }
     #image-1{
         height: 15rem;
     }
@@ -218,5 +215,3 @@ body {
         font-size: 1.5rem;
     }
 }
-/* crvena: #94070a
-crna: #434343 */
