@@ -26,7 +26,7 @@ if(mail($to, $subject, $msg, $headers)){
         <div class="text-start"><p>Vaša poruka je uspešno poslata. Očekujte odgovor u najkraćem mogućem roku.</p></div>
         </div>
         <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Izađi</button>
+        <button type="button" class="btn modal-close-btn" data-bs-dismiss="modal">Izađi</button>
         </div>';
     }
     else {
@@ -38,7 +38,7 @@ if(mail($to, $subject, $msg, $headers)){
         <div class="text-start"><p>Your message was successfully sent. Expect an answer as soon as possible.</p></div>
         </div>
         <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn modal-close-btn" data-bs-dismiss="modal">Close</button>
         </div>';
     }
 }
@@ -52,7 +52,7 @@ else{
         <div class="text-start"><p>Došlo je do greške prilikom slanja poruke. Pokušajte kasnije ili nas kontaktirajte na office@smartfireblock.rs</p></div>
         </div>
         <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Izađi</button>
+        <button type="button" class="btn modal-close-btn" data-bs-dismiss="modal">Izađi</button>
         </div>';
     }
     else {
@@ -64,7 +64,7 @@ else{
         <div class="text-start"><p>An error occured while trying to send your message. Try again later or contact us at office@smartfireblock.rs</p></div>
         </div>
         <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn modal-close-btn" data-bs-dismiss="modal">Close</button>
         </div>';
     }
 }
