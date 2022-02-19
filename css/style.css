@@ -127,6 +127,11 @@ body {
 #products {
     background-color: #333;
     color: white;
+    border-top: 3px solid #94070a;
+    border-bottom: 3px solid #94070a;
+}
+.send-message-btn{
+    padding: 1.2rem;
 }
 #modal-title {
     background-color:#94070a;
