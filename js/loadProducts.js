@@ -16,7 +16,7 @@ function loadProducts(lang) {
                 "title": "SMART FIRE ACRYLIC SEALANT",
                 "about": "Koristi se uz: plastične cevi, metalne cevi, kablovski sistemi, protivpožarna vrata",
                 "description": "SMART FIRE AS je zaptivna masa na bazi akrilatnog polimera koja je predvidjena za ispunjavanje otvora izmedju prodora i instalacija koje se smatraju nepomerljivim ili niskog stepena pomeranja u cilju sprečavanja prodora vatre i dima.",
-                "application": "- Zaptivanje otvora na zidovima i podovima. - Zaptivanje otvora između protivpožarnih vrata i zida. - Zaptivanje otvora oko protivpožarnih rešetaka ili obujmica. - Zaptivanje otvora kroz koje prodiru plastične i metalne cevi, odnosno kablovi",
+                "application": "Zaptivanje otvora na zidovima i podovima. Zaptivanje otvora između protivpožarnih vrata i zida. Zaptivanje otvora oko protivpožarnih rešetaka ili obujmica. Zaptivanje otvora kroz koje prodiru plastične i metalne cevi, odnosno kablovi",
                 "pictureSource1": "./assets/images/products/smartfire-acrylic-sealant1.webp",
                 "pictureSource2": "./assets/images/products/smartfire-acrylic-sealant2.webp",
                 "applicableTo": "Primenjivo na sve vrste spojeva koji iziskuju određenu klasifikaciju vatrootpornosti, odnosno prodora dima. Nakon primene može biti ofarbano. U slučaju većih otvora međuprostor popuniti kamenom vunom ili koristiti SMART FIRE STRIP. Proizvod poseduje značajna adheziona svojstva."
@@ -79,7 +79,7 @@ function loadProducts(lang) {
                 "title": "SMART FIRE PLUG",
                 "about": "Koristi se uz: kablovski sistemi",
                 "description": "SMART FIRE PLUG je konstruktivna zaptivka u obliku čepa na bazi polimera dugotrajnih i visokih performansi male specifične gustine (mase) koja ekspandira pod uticajem vatre ili usijanih gasova i popunjava celokupan prostor nakon sagorevanja instalacija. Radi se o inovativnoj tehnologiji.",
-                "application": "SMART FIRE PLUG se koristi kao zaptivka u zidovima, na podovima i na plafonima. Kroz ovu zaptivku u obliku čepa može penetrirati jedan kabl ili manji snop kablova na regalu ili samostalnih kablova kao i manje plastične cevi. Odobrenja: SRPS EN 1364-5 (Institut IMS) Odobrenja: SRPS EN 1366-3 (Institut IMS - u toku)",
+                "application": "SMART FIRE PLUG se koristi kao zaptivka u zidovima, na podovima i na plafonima. Kroz ovu zaptivku u obliku čepa može penetrirati jedan kabl ili manji snop kablova na regalu ili samostalnih kablova kao i manje plastične cevi.",
                 "pictureSource1": "./assets/images/products/smartfire-plug1.webp",
                 "pictureSource2": "./assets/images/products/smartfire-plug2.webp",
                 "applicableTo": "Zaptivka se ugradjuje u zidove, a kroz nju mogu penetrirati pojedinačni kablovi, odnosno snopovi istih, kao i plastične cevi."
@@ -104,7 +104,7 @@ function loadProducts(lang) {
                 "title": "SMART FIRE ACRYLIC SEALANT",
                 "about": "Applicable with: plastic pipes, metal pipes, cable systems, fire doors",
                 "description": "Smart fire AS is an acrylic-based, single component fire stopping sealant used for non-movement joints.",
-                "application": "- Construction walls and/or floor joints - Gaps behind fire resistant door casings - Seating of smart fire grill or collar - Gaps around metallic pipes and cable penetrations",
+                "application": "Construction walls and/or floor joints. Gaps behind fire resistant door casings. Seating of smart fire grill or collar. Gaps around metallic pipes and cable penetrations",
                 "pictureSource1": "./assets/images/products/smartfire-acrylic-sealant1.webp",
                 "pictureSource2": "./assets/images/products/smartfire-acrylic-sealant2.webp",
                 "applicableTo": "Applicable to all kinds of joints requiring fire resistance. Can be painted once is cured. Great unprimed adhesion characteristics. Bigger gaps should be filled with stone wool, fire wrap or strip.  "
@@ -158,10 +158,10 @@ function loadProducts(lang) {
                 "title": "SMART FIRE BRICK",
                 "about": "Applicable with: plastic pipes, cable systems",
                 "description": "Smart fire brick is graphite based seal which swells under high temperature influence and fills the entire space left after burnt-out of combustible installations. Horizontal application",
-                "application": "Smart fire brick is used as a seal for wall/floor/ceiling penetration of single cables as well as smaller cable bundles or small diameter pipes. It can be stacked to a maximum area of 1,4m2",
+                "application": "Smart fire brick is used as a seal for wall/floor/ceiling penetration of single cables as well as smaller cable bundles or small diameter pipes. It can be stacked to a maximum area of 1,4 squared meters",
                 "pictureSource1": "./assets/images/products/smartfire-brick1.webp",
                 "pictureSource2": "./assets/images/products/smartfire-brick2.webp",
-                "applicableTo": "Applicable to masonry walls and speed panels on area up to 1,4m2."
+                "applicableTo": "Applicable to masonry walls and speed panels on area up to 1,4 squared meters."
             },
             {
                 "title": "SMART FIRE PLUG",

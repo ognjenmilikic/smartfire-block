@@ -132,6 +132,14 @@ body {
 }
 .send-message-btn{
     padding: 1.2rem;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    transition: .5s;
+}
+.send-message-btn:hover {
+    background-color: white;
+    color: #434343;
 }
 #modal-title {
     background-color:#94070a;
@@ -208,7 +216,7 @@ body {
     margin-left: -1px;
 }
 .dark-area {
-    background-color: #434343;
+    background-color: #333;
     color: white;
 }
 .underlined {
@@ -231,6 +239,14 @@ body {
     transition: .5s;
 }
 .modal-close-btn:hover {
+    background-color: #434343;
+    color: white;
+}
+#about {
+    background-color: #434343;
+    color: white;
+}
+#contact {
     background-color: #434343;
     color: white;
 }
