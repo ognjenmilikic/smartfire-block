@@ -41,7 +41,7 @@ body {
 .hero-description{
     color: white;
     font-size: 1.5rem;
-    min-height: 3rem;
+    min-height: 4rem;
 }
 .btn-hero {
     background-color: transparent;
@@ -269,7 +269,7 @@ body {
         font-size: 6rem;
     }
     .hero-description{
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
     .btn-hero{
         font-size: 1.5rem;
