@@ -61,7 +61,7 @@ function loadProducts(lang) {
                 "title": "SMART FIRE WRAP/STRIP",
                 "about": "Koristi se uz: plastične cevi, metalne cevi, kablovski sistemi.",
                 "description": "SMART FIRE WRAP / STRIP je fleksibilna traka pravljena od polimera visokih performansi koja ekspandira pod uticajem vatre ili usijanih gasova, odnosno temperature iznad 150°C i popunjava celokupan prostor nakon sagorevanja instalacija. Radi se o inovativnoj tehnologiji.",
-                "application": "SMART FIRE WRAP / STRIP* je fleksibilna traka koja se koristi kao zaptivka za zaštitu od prodiranja vatre obmotavanjem oko pojedinačnih prodora, odnosno sledećih kombinacija plastičnih cevi** (PVC, PVC-U, San+PVC, PE, HDPE, MDPE, PVC-U, PP, PP-RCT i druge) i bakarnih cevi (HVAC) odnosno napojnih i komunikacionih kablova koji prodiru kroz lake pregrade kao i čvrste, konstruktivne zidove i podove. Primena može biti horizontalna i vertikalna. Proizvod je tipa ’’Type X Durability’’, što znači da performanse proizvoda ne zavise od promena vremenskih uslova. *Koristi se jedna ili više fleksibilnih traka u zavisnosti od prečnika cevi. **SMART FIRE STRIP se ne koristi u kombinovanim prodorima, već pojedinačno.",
+                "application": "SMART FIRE WRAP / STRIP* je fleksibilna traka koja se koristi kao zaptivka za zaštitu od prodiranja vatre obmotavanjem oko pojedinačnih prodora, odnosno sledećih kombinacija plastičnih cevi** (PVC, PVC-U, San+PVC, PE, HDPE, MDPE, PVC-U, PP, PP-RCT i druge) i bakarnih cevi (HVAC) odnosno napojnih i komunikacionih kablova koji prodiru kroz lake pregrade kao i čvrste, konstruktivne zidove i podove. Primena može biti horizontalna i vertikalna. Proizvod je tipa ’’Type X Durability’’, što znači da performanse proizvoda ne zavise od promena vremenskih uslova.\n*Koristi se jedna ili više fleksibilnih traka u zavisnosti od prečnika cevi.\n**SMART FIRE STRIP se ne koristi u kombinovanim prodorima, već pojedinačno.",
                 "pictureSource1": "./assets/images/products/smartfire-wrap1.webp",
                 "pictureSource2": "./assets/images/products/smartfire-wrap2.webp",
                 "applicableTo": "SMART FIRE WRAP je fleksibilna traka koja se obmotava oko različitih kombinacija prodora (bakarnih cevi, plastičnih cevi, kablova) koji prodiru kroz otvore na zidovima. SMART FIRE STRIP je fleksibilna traka koja se obmotava samo u slučaju pojedinačnih prodora."
@@ -185,8 +185,8 @@ function loadModal(id) {
     document.getElementById("modal-title").textContent = product.title;
     document.getElementById("modal-subtitle").textContent = product.about;
     document.getElementById("modal-about").textContent = product.description;
-    document.getElementById("image-1").setAttribute("src", product.pictureSource1);
+    document.getElementById("image-1").setAttribute("src", product.pictureSource2);
     document.getElementById("application").textContent = product.application;
     document.getElementById("applicableTo").textContent = product.applicableTo;
-    document.getElementById("image-2").setAttribute("src", product.pictureSource2);
+    document.getElementById("image-2").setAttribute("src", product.pictureSource1);
 }
