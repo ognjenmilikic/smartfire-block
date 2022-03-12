@@ -274,6 +274,11 @@ a {
 a:hover {
     color: rgb(209, 209, 209);
 }
+footer {
+    border-top: 3px solid #94070a;
+    background-color: #434343;
+    color: white;
+}
 @media only screen and (min-width: 900px) {
     .hero-title{
         font-size: 6rem;
