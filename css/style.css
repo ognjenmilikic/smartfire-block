@@ -280,7 +280,7 @@ a:hover {
     color: rgb(209, 209, 209);
 }
 footer {
-    background-color: white;
+    background-color: #eee;
     color: #333;
 }
 @media only screen and (min-width: 900px) {
