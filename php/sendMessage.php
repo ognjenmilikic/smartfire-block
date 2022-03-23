@@ -1,6 +1,6 @@
 <?php
 $to = "office@smartfireblock.rs";
-$subject = "Nova poruka od" . $_POST['name'];
+$subject = "Nova poruka od " . $_POST['name'];
 $headers = "Content-type: text/html; charset=UTF-8" . "\r\n";
 $headers.= "From: " . $_POST['email'];
 $msg = "<html>";
@@ -10,7 +10,7 @@ $msg.= "<meta charset=\"utf-8\"";
 $msg.= "</head>";
 $msg.= '<body style="font-family: arial">';
 $msg.= "<div style='background-color: white; padding: 20px; color: #434343'>";
-$msg.= "<h3 style='text-align: left'>Nova poruka od" . $_POST['name'] . "</h3>";
+$msg.= "<h3 style='text-align: left'>Nova poruka od " . $_POST['name'] . ", Email: " . $_POST['email'] . "</h3>";
 $msg.= '<p style="text-align: left;>' . $_POST['message'] . '</p>';
 $msg.= "</div>";
 $msg.= "</body>";
