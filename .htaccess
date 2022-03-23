@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_URI} ^$
+RewriteCond %{HTTP_HOST} ^smartfireblock.rs$
+RewriteRule ^$ http://smartfireblock.rs/index.html [L,R=301]
