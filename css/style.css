@@ -108,6 +108,13 @@ body {
     padding: 0;
     border: 0;
     filter: drop-shadow(0px 10px 10px #202020);
+    top: 0;
+    position: relative;
+    transition: top ease 0.5s;
+}
+.btn-product:hover {
+    filter: drop-shadow(0px 10px 10px #202020);
+    top: -10px;
 }
 .product-title{
     background-color: #94070a;
